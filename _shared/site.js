@@ -2,7 +2,7 @@
 (function () {
   var PUBLISHED = false;
   // The two pages live in two separate repositories. Put the other page's public URL here once it is deployed; while empty, the link is hidden.
-  var OTHER_URL = "";
+  var OTHER_URL = "https://jaydenwang14.github.io/soundscene-echoes/";
   var PAGES = [
     { key: "re", title: "Re:Sonance", href: "index.html" },
     { key: "other", title: "Echoes Across the Thaw", href: OTHER_URL }
