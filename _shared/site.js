@@ -21,3 +21,12 @@
   var host = document.getElementById("site-header");
   if (host) host.innerHTML = html;
 })();
+
+// When the page is shown inside an iframe (WordPress), tell the parent how tall it is so the frame can match it and no second scrollbar appears.
+(function () {
+  if (window.parent === window) return;
+  function send() { window.parent.postMessage({ type: "soundscene-height", height: document.documentElement.scrollHeight }, "*"); }
+  window.addEventListener("load", send);
+  window.addEventListener("resize", send);
+  if (window.ResizeObserver) new ResizeObserver(send).observe(document.body);
+})();
