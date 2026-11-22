@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en" data-page="re">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Re:Sonance</title>
+<meta name="description" content="Re:Sonance: an interactive sound artwork that turns unwanted urban noises into instrumental improvisations. Proposal for Sound Scene 2027: Sounds of the City.">
+<link rel="stylesheet" href="_shared/style.css?v=20261122">
+<link rel="stylesheet" href="demo.css?v=20261122">
+</head>
+<body>
+<div id="site-header"></div>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="label">Proposal for Sound Scene 2027: Sounds of the City</p>
+    <h1>Re<span class="colon">:</span>Sonance</h1>
+    <p class="lead tag">From passive hearing without to freedom of perception within.</p>
+    <p><a class="btn" href="#demo">Preview</a> &nbsp; <a class="btn ghost" href="#installation">The installation</a></p>
+    <canvas id="heroLine" aria-hidden="true"></canvas>
+  </div>
+</header>
+
+<section>
+  <div class="wrap cols">
+    <div class="c5">
+      <p class="label">Project description</p>
+      <h2>A city is a living symphony</h2>
+    </div>
+    <div class="c7">
+      <p class="lead">Birds singing, rain falling, and the gentle chime of wind bells coexist with blaring sirens, honking horns, and the thunderous roar of Metro trains rushing past.</p>
+      <p class="lead">The city’s score is collectively composed by its inhabitants, yet each of us remains an unwitting listener to a symphony we cannot choose.</p>
+    </div>
+  </div>
+</section>
+
+<section class="lav">
+  <div class="wrap cols">
+    <div class="c5">
+      <p class="label">Project description</p>
+      <h2>Re<span class="colon">:</span>Sonance</h2>
+    </div>
+    <div class="c7">
+      <p class="lead">“Re:Sonance” is an interactive sound artwork that plays back a participant’s urban soundscape, instantly transforming it into an improvisation where unwanted noises give way to instrumental performances of the participant’s choosing.</p>
+      <p>A piercing police siren at the corner of 7th and H Streets in Washington, DC, for instance, might be transformed into a violin improvisation composed from the siren’s own sounds.</p>
+      <p>Within the broader urban soundscape, rather than passively receiving unwanted sounds, Re:Sonance empowers individuals to respond to the city by hearing them anew as melodic instrumental performances.</p>
+    </div>
+  </div>
+</section>
+
+<section class="demo" id="demo">
+  <div class="wrap">
+    <p class="label">Hear it</p>
+    <h2>One raw street recording, many sounds</h2>
+    <p class="lead">Below is a city scene with five sounds playing at once: a siren, a motorcycle, a metro train, footsteps and a crowd. Each sound sits on its own line. You decide which of them becomes music, and which instrument plays it.</p>
+    <div class="controls">
+      <button class="btn play" id="btnPlay">Play</button>
+      <span class="time" id="time">0:00 / 0:24</span>
+      <div class="chips" role="group" aria-label="Quick choices"><span class="chiplabel">Try</span>
+        <button class="chip" data-preset="raw">The raw city</button>
+        <button class="chip" data-preset="siren">Siren as music</button>
+        <button class="chip" data-preset="all">Everything as music</button>
+      </div>
+    </div>
+    <div class="rows" id="rows"></div>
+    <p class="how">For each sound, choose <b>Sound</b> to keep it as it is, <b>Music</b> to hear the music made from it, or <b>Mute</b>. Every piece of music follows its own sound: the siren’s violin follows the siren’s own pitch, the motorcycle’s notes fall on its engine pulses, the footsteps’ piano plays on each step. All music shares one tempo and one major pentatonic scale, so any combination you choose stays in harmony. Click a line to move through the scene.</p>
+    <p class="fine">This preview plays a ready-made scene built from five separate recordings, so each sound can be told apart exactly. At the exhibition the sounds come from the participant’s own recording. Separating them by software is under test: prominent sounds such as sirens and trains separate well, steady crowd noise does not yet. The instrument pairings shown here were chosen by hand for this preview.</p>
+    <p class="credits" id="credit"></p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="label">Audience experience and participation</p>
+    <h2>How to take part</h2>
+    <ol class="steps">
+      <li><span class="n">1</span><b>Capture your city</b><span>Record the sounds around you using your smartphone, from birdsong and rainfall to traffic, sirens, and construction.</span></li>
+      <li><span class="n">2</span><b>Choose what you hear</b><span>Identify sounds you wish to preserve and select unwanted noises you would like to transform.</span></li>
+      <li><span class="n">3</span><b>Transform noise into music</b><span>Convert selected sounds into musical expressions using instruments or orchestral arrangements of your choice.</span></li>
+      <li><span class="n">4</span><b>Recompose your soundscape</b><span>Blend the transformed music with the original sounds you enjoy, creating your own interpretation of the city.</span></li>
+      <li><span class="n">5</span><b>Join the collective symphony</b><span>Contribute your composition to the exhibition, where individual soundscapes come together into a shared musical portrait of urban life.</span></li>
+    </ol>
+  </div>
+</section>
+
+<section class="lav" id="installation">
+  <div class="wrap cols">
+    <div class="c6">
+      <p class="label">The onsite interactive installation</p>
+      <h2>Two-sided structure offering contrasting sonic experiences</h2>
+      <p>On one side, visitors hear the city's original, unaltered soundscape. As they move to the other side, unwanted noises, such as piercing sirens, are transformed in real time into improvisational compositions performed by instruments of their choosing, creating a new resonance within the familiar urban soundscape.</p>
+      <p>This physical passage from one side to the other becomes a metaphor for a shift in perspective: the external world remains unchanged, yet we can choose how we listen, perceive, and interpret what surrounds us.</p>
+    </div>
+    <div class="c6">
+      <figure><img src="assets/installation.jpg" alt="Visitors at the two-sided Re:Sonance installation in a circular museum hall" width="1536" height="1024"></figure>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap cols">
+    <div class="c6">
+      <p class="label">Audience experience and participation</p>
+      <h2>Beyond the museum</h2>
+      <p>Participants are not limited to the physical installation. Visitors can participate directly through the interactive installation of this artwork onsite or use their own smartphones to contribute and interact from anywhere beyond the museum’s physical location.</p>
+      <p>Anyone with a smartphone can contribute sounds from their own neighborhood, whether in Washington, DC, or another city around the world. Shaped by diverse environments, experiences, and personal interpretations, this distributed participation transforms the installation into a living sonic portrait of urban life.</p>
+    </div>
+    <div class="c6">
+      <h3>Collective soundscape of the city</h3>
+      <p>Throughout each day, individual contributions accumulate into an evolving collective composition. At the end of the day, the installation presents a collective soundscape of the city, bringing together the sounds participants have chosen to preserve and the noises they have transformed into music. Each day's composition becomes a unique reflection of its contributors, revealing not only what cities sound like, but how their inhabitants wish to hear them.</p>
+    </div>
+  </div>
+</section>
+
+<section class="dark">
+  <div class="wrap cols">
+    <div class="c5">
+      <p class="label">Art statement</p>
+      <h2>Re<span class="colon" style="color:#b9a9ff">:</span>Sonance</h2>
+    </div>
+    <div class="c7">
+      <p class="lead">Life unfolds to a rhythm not entirely under our control. While we may have no choice but to accept what happens around us, we retain the freedom to choose how we perceive and respond to it.</p>
+      <p>Within the inevitability of external circumstances resides the possibility of an inner freedom, not to alter what occurs, but to transform how it is perceived.</p>
+      <p>The original sounds are neither denied nor erased; instead, their dissonances become the very material from which new resonances emerge.</p>
+    </div>
+    <div class="c12" style="margin-top:28px">
+      <h3>Embodiment</h3>
+      <p>A metaphor for life and perception, expressed through an urban soundscape beyond our control that invites us to respond, relate, and reinterpret our encounters.</p>
+    </div>
+    <div class="c4"><h3>1. Sonic Unpredictability</h3><p>The city’s ever-changing sounds cannot be fully anticipated or predetermined. Each sonic moment offers a unique foundation for an instrumental improvisation.</p></div>
+    <div class="c4"><h3>2. Embracing the City as It Is</h3><p>Re:Sonance draws directly upon the acoustic characteristics of urban sounds as they are, allowing the city’s spontaneous sonic encounters to shape musical expressions that could not have been deliberately composed in advance.</p></div>
+    <div class="c4"><h3>3. Transformation from Within</h3><p>Rather than changing or eliminating the sounds of the city, Re:Sonance invites a shift in perception, from passively hearing the sounds without to finding freedom within.</p></div>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="wrap cols">
+    <div class="c5">
+      <p class="label">Artistic and technical feasibility</p>
+      <h2>A hybrid, participatory sound art installation</h2>
+    </div>
+    <div class="c7">
+      <p>Re:Sonance is a hybrid, participatory sound art that connects an interactive installation with potential participants across the city and beyond.</p>
+      <p class="small">Dreamality Lab &middot; Sheng-Ying Pao &middot; <a href="mailto:paoshengying@gmail.com">paoshengying@gmail.com</a> &middot; <a href="https://dreamalitylab.cc/">dreamalitylab.cc</a></p>
+    </div>
+  </div>
+</section>
+
+<footer class="site"><div class="wrap">
+  Re:Sonance &middot; Proposal for Sound Scene 2027: Sounds of the City &middot; Dreamality Lab.
+  Demo recordings: see the credits under the preview.
+</div></footer>
+
+<script src="_shared/site.js?v=20261122"></script>
+<script src="assets/scene.js?v=20261122"></script>
+<script src="demo.js?v=20261122"></script>
+<script>
+/* hero: a line that starts as rough noise on the left and settles into calm purple waves on the right */
+(function () {
+  var c = document.getElementById("heroLine"), g = c.getContext("2d"), dpr = Math.min(window.devicePixelRatio || 1, 2);
+  var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function ss(a, b, x) { x = Math.max(0, Math.min(1, (x - a) / (b - a))); return x * x * (3 - 2 * x); }
+  function frame(ts) {
+    var r = c.getBoundingClientRect(); c.width = Math.round(r.width * dpr); c.height = Math.round(r.height * dpr);
+    var w = c.width, h = c.height, t = ts / 1000, i, L;
+    g.clearRect(0, 0, w, h);
+    for (L = 0; L < 5; L++) {
+      g.beginPath();
+      for (i = 0; i <= w; i += 2 * dpr) {
+        var x = i / w, p = ss(0.3, 0.7, x);
+        var n = (Math.sin(i * 0.19 + t * 7 + L * 2.1) + Math.sin(i * 0.47 - t * 11 + L) * 0.7 + Math.sin(i * 0.93 + t * 17) * 0.4) / 2.1;
+        var wave = Math.sin(i * 0.012 * dpr + t * 1.4 + L * 0.9) * 0.5;
+        var y = h / 2 + (1 - p) * n * h * 0.36 * (0.5 + L * 0.16) + p * wave * h * (0.12 + L * 0.05);
+        if (i === 0) g.moveTo(i, y); else g.lineTo(i, y);
+      }
+      var grad = g.createLinearGradient(0, 0, w, 0);
+      grad.addColorStop(0, "rgba(17,17,17," + (0.75 - L * 0.1) + ")"); grad.addColorStop(0.45, "rgba(17,17,17,.3)"); grad.addColorStop(0.62, "rgba(91,63,214,.45)"); grad.addColorStop(1, "rgba(91,63,214," + (0.95 - L * 0.12) + ")");
+      g.strokeStyle = grad; g.lineWidth = (1.4 - L * 0.1) * dpr; g.stroke();
+    }
+    if (!reduce) requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>
